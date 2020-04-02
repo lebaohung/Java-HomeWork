@@ -70,7 +70,7 @@ public class Student extends Person {
     }
 
     public void displayStudent() {
-        System.out.printf("%-15s%-5s%-10d%-10s%-10d%-10.2f%-30s",this.getName(), this.getGender(), this.getBirth(), this.getAdd(),this.getId(), this.getAverageScore(), this.getEmail());
+        System.out.printf("%-15s%-10s%-10d%-10s%-10d%-10.2f%-30s",this.getName(), this.getGender(), this.getBirth(), this.getAdd(),this.getId(), this.getAverageScore(), this.getEmail());
         System.out.println();
     }
 
