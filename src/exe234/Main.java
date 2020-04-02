@@ -1,7 +1,6 @@
 package exe234;
 import java.util.*;
 public class Main {
-//    static Student student = new Student();
     static StudentManager studentManager = new StudentManager();
     static int choice;
     public static void main(String[] args) {

@@ -14,6 +14,7 @@ public class Student extends Person {
         this.id = id;
         this.averageScore = averageScore;
         this.email = email;
+        if (this.averageScore > 8) this.setGetScholarship(true);
     }
 
     public int getId() {
@@ -52,7 +53,7 @@ public class Student extends Person {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter Student name: ");
         this.setName(scanner.nextLine());
-        System.out.print("Enter gender: ");
+        System.out.print("Enter gender (male/female): ");
         this.setGender(scanner.nextLine());
         System.out.print("Enter birthday: ");
         this.setBirth(scanner.nextInt());

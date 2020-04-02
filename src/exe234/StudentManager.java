@@ -14,17 +14,19 @@ public class StudentManager {
         for (int i = 0; i < listStudent.size(); i++) {
             listStudent.get(i).displayStudent();
         }
+        System.out.println();
     }
 
     public void deleteByID(int id) {
-        boolean checkID = false;
+        boolean check = false;
         for (int i = 0; i< listStudent.size(); i++) {
             if (listStudent.get(i).getId() == id){
                 listStudent.remove(i);
-                checkID = true;
+                check = true;
+                System.out.println("Delete complete!");
             }
         }
-        if (checkID) {
+        if (!check) {
             System.out.println("Invalid ID / Not Found!");
         }
     }
@@ -34,9 +36,10 @@ public class StudentManager {
         for (int i = 0; i < listStudent.size(); i++) {
             if (listStudent.get(i).getId() == id) {
                 listStudent.get(i).inputStudent();
+                System.out.println("Edit complete!");
             }
         }
-        if (check) {
+        if (!check) {
             System.out.println("Invalid ID / Not Found!");
         }
     }
@@ -49,7 +52,7 @@ public class StudentManager {
                 check = true;
             }
         }
-        if (check) {
+        if (!check) {
             System.out.println("Invalid ID / Not Found!");
         }
     }
@@ -62,7 +65,7 @@ public class StudentManager {
                 check = true;
             }
         }
-        if (check) {
+        if (!check) {
             System.out.println("Invalid ID / Not Found!");
         }
     }
@@ -75,7 +78,7 @@ public class StudentManager {
                 check = true;
             }
         }
-        if (check) {
+        if (!check) {
             System.out.println("No one get scholarship");
         }
     }
@@ -88,7 +91,7 @@ public class StudentManager {
                 check = true;
             }
         }
-        if (check) {
+        if (!check) {
             System.out.println("Not found!");
         }
     }
