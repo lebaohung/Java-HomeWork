@@ -30,52 +30,66 @@ public class StudentManager {
     }
 
     public void editByID(int id) {
-        boolean checkID = false;
+        boolean check = false;
         for (int i = 0; i < listStudent.size(); i++) {
             if (listStudent.get(i).getId() == id) {
                 listStudent.get(i).inputStudent();
             }
         }
-        if (checkID) {
+        if (check) {
             System.out.println("Invalid ID / Not Found!");
         }
     }
 
     public void findByID(int id) {
-        boolean checkID = false;
+        boolean check = false;
         for (int i = 0; i < listStudent.size(); i++) {
             if (listStudent.get(i).getId() == id) {
                 listStudent.get(i).displayStudent();
-                checkID = true;
+                check = true;
             }
         }
-        if (checkID) {
+        if (check) {
             System.out.println("Invalid ID / Not Found!");
         }
     }
 
     public void findByName(String name) {
-        boolean checkName = false;
+        boolean check = false;
         for (int i = 0; i < listStudent.size(); i++) {
             if (name.equals(listStudent.get(i).getName())) {
                 listStudent.get(i).displayStudent();
-                checkName = true;
+                check = true;
             }
         }
-        if (checkName) {
+        if (check) {
             System.out.println("Invalid ID / Not Found!");
         }
     }
 
-    public void displayScholarship() {
+    public void displayStudentsGetScholarship() {
         boolean check = false;
         for (int i = 0; i < listStudent.size(); i++) {
             if (listStudent.get(i).getAverageScore() > 8) {
                 listStudent.get(i).displayStudent();
+                check = true;
             }
         }
         if (check) {
             System.out.println("No one get scholarship");
+        }
+    }
+
+    public void findFemaleStudent() {
+        boolean check = false;
+        for (int i = 0; i < listStudent.size(); i++) {
+            if (listStudent.get(i).getGender().equals("female")) {
+                listStudent.get(i).displayStudent();
+                check = true;
+            }
+        }
+        if (check) {
+            System.out.println("Not found!");
         }
     }
 }
