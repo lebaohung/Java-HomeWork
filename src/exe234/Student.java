@@ -4,7 +4,7 @@ public class Student extends Person {
     private int id;
     private double averageScore ;
     private String email;
-    private boolean getScholarship;
+    private boolean getScholarship = false;
 
     public Student() {
     }
@@ -76,9 +76,6 @@ public class Student extends Person {
     public void checkScholarship() {
         if (this.getAverageScore() > 8) {
             this.getScholarship = true;
-            System.out.println("Student gets scholarship!");
-        } else {
-            System.out.println("Student does not get scholarship!");
         }
     }
 }
