@@ -2,8 +2,8 @@ package exe234;
 import java.util.*;
 
 public class StudentManager {
-    ArrayList<Student> listStudent = new ArrayList<Student>();
-
+    LinkedList<Student> listStudent = new LinkedList<Student>();
+//    ArrayList<Student> listStudent = new ArrayList<Student>();
     public void addStudent() {
         Student student = new Student();
         student.inputStudent();
@@ -60,7 +60,7 @@ public class StudentManager {
     public void findByName(String name) {
         boolean check = false;
         for (int i = 0; i < listStudent.size(); i++) {
-            if (name.equals(listStudent.get(i).getName())) {
+            if (listStudent.get(i).getName().equals(name)) {
                 listStudent.get(i).displayStudent();
                 check = true;
             }

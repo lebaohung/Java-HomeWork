@@ -5,13 +5,12 @@ public class Main {
     static int choice;
     public static void main(String[] args) {
         Main.displayMenu();
-//        Scanner scanner = new Scanner(System.in);
-//        choice = scanner.nextInt();
         Main.controller();
     }
 
     public static void controller() {
         int id;
+        String name;
         Scanner scanner = new Scanner(System.in);
         choice = scanner.nextInt();
         switch (choice) {
@@ -26,29 +25,30 @@ public class Main {
                 Main.controller();
                 break;
             case 3:
-                System.out.println("Enter id: ");
+                System.out.print("Enter id: ");
                 id = scanner.nextInt();
                 studentManager.editByID(id);
                 Main.displayMenu();
                 Main.controller();
                 break;
             case 4:
-                System.out.println("Enter id: ");
+                System.out.print("Enter id: ");
                 id = scanner.nextInt();
                 studentManager.deleteByID(id);
                 Main.displayMenu();
                 Main.controller();
                 break;
             case 5:
-                System.out.println("Enter id: ");
+                System.out.print("Enter id: ");
                 id = scanner.nextInt();
                 studentManager.findByID(id);
                 Main.displayMenu();
                 Main.controller();
                 break;
             case 6:
-                System.out.println("Enter name: ");
-                String name = scanner.nextLine();
+                scanner.nextLine();
+                System.out.print("Enter name: ");
+                name = scanner.nextLine();
                 studentManager.findByName(name);
                 Main.displayMenu();
                 Main.controller();

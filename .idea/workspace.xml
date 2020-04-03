@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59ee3fca-3c78-4151-8e62-35855d095f44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/exe234/StudentManagerByLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework020420/exe234/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework020420/exe234/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework020420/exe234/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework020420/exe234/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exe234/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exe234/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exe234/MainManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exe234/MainByLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exe234/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exe234/StudentManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +41,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exe234.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exe1.Main" />
       <module name="Homework020420" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exe234.*" />
+          <option name="PATTERN" value="exe1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,11 +55,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exe1.Main" />
+      <option name="MAIN_CLASS_NAME" value="exe234.Main" />
       <module name="Homework020420" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exe1.*" />
+          <option name="PATTERN" value="exe234.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,7 +114,8 @@
       <updated>1585820207897</updated>
       <workItem from="1585820221768" duration="192000" />
       <workItem from="1585820449811" duration="3279000" />
-      <workItem from="1585837563818" duration="14234000" />
+      <workItem from="1585837563818" duration="14627000" />
+      <workItem from="1585875855206" duration="5436000" />
     </task>
     <servers />
   </component>
@@ -125,25 +127,25 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="491" y="120" width="374" height="568" key="#com.intellij.ide.util.MemberChooser/0.34.1366.734@0.34.1366.734" timestamp="1585842815279" />
-    <state width="1320" height="514" key="GridCell.Tab.0.bottom" timestamp="1585857903565">
+    <state width="1320" height="516" key="GridCell.Tab.0.bottom" timestamp="1585901414897">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1320" height="514" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1585857903565" />
-    <state width="1320" height="514" key="GridCell.Tab.0.center" timestamp="1585857903564">
+    <state width="1320" height="516" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1585901414897" />
+    <state width="1320" height="516" key="GridCell.Tab.0.center" timestamp="1585901414896">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1320" height="514" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1585857903564" />
-    <state width="1320" height="514" key="GridCell.Tab.0.left" timestamp="1585857903564">
+    <state width="1320" height="516" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1585901414896" />
+    <state width="1320" height="516" key="GridCell.Tab.0.left" timestamp="1585901414894">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1320" height="514" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1585857903564" />
-    <state width="1320" height="514" key="GridCell.Tab.0.right" timestamp="1585857903565">
+    <state width="1320" height="516" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1585901414894" />
+    <state width="1320" height="516" key="GridCell.Tab.0.right" timestamp="1585901414897">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1320" height="514" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1585857903565" />
-    <state x="339" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1585837670086">
+    <state width="1320" height="516" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1585901414897" />
+    <state x="339" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1585875858648">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="339" y="228" key="com.intellij.ide.util.TipDialog/0.34.1366.734@0.34.1366.734" timestamp="1585837670085" />
+    <state x="339" y="228" key="com.intellij.ide.util.TipDialog/0.34.1366.734@0.34.1366.734" timestamp="1585875858648" />
   </component>
 </project>
